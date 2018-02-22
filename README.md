@@ -5,6 +5,7 @@ A simple collection of themes for various websites using the same dark color sch
 All themes are available on [userstyles.org](https://userstyles.org/users/519832) using the **Stylish** browser extension.
 
 ## Colors:
+![colors](https://raw.githubusercontent.com/nostrenz/stylish-mayadark/master/colors.png)
 ```
 #D2D2D2
 #999999
