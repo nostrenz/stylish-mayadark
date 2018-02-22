@@ -1,0 +1,45 @@
+@-moz-document domain('livechart.me') {
+	body {
+		background-color: #262626;
+	}
+
+	.chart-title {
+		color: white;
+	}
+
+	.anime-card {
+		background-color: #333333;
+	}
+
+	.anime.watching *,
+	.anime.considering *,
+	.anime.skipping * {
+		color: black;
+	}
+
+	.anime-card * {
+		color: #D2D2D2;
+	}
+
+	.status-marks * {
+		color: transparent !important;
+	}
+
+	.status-marks:hover * {
+		color: #333333 !important;
+	}
+
+	.status-marks > .mark:hover {
+		color: white !important;
+	}
+
+	.tab.active > a,
+	.tab > a:hover {
+		color: white;
+	}
+
+	.episode-countdown,
+	.episode-countdown > time {
+		color: #D2D2D2 !important;
+	}
+}

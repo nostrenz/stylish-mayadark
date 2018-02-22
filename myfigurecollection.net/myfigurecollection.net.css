@@ -1,0 +1,135 @@
+@-moz-document domain('myfigurecollection.net') {
+	body {
+		background-color: #262626;
+	}
+
+	section > h1,
+	section > h2,
+	.tbx-target-WINDOW,
+	.tbx-target-WINDOW > h2,
+	.tbx-target-WINDOW > .window-actions,
+	.tbx-target-WINDOW .actions {
+		background-color: #212121 !important;
+		border-color: #212121 !important;
+	}
+
+	section,
+	div.item-object,
+	div.section-content,
+	.tbx-target-TAGS .object-tags,
+	.listing .listing-item,
+	.user-stats,
+	.listing-noresults,
+	.window-content,
+	.entry-description,
+	.entry-items,
+	.entry-object {
+		background-color: #333333 !important;
+		border-color: #333333;
+	}
+
+	.entry-description {
+		color: #D2D2D2 !important;
+	}
+
+	.listing,
+	.listing-title,
+	.listing-filter {
+		border-color: #333333 !important;
+	}
+
+	div.share,
+	.comment > .user-expression .content,
+	.activity-wrapper {
+		background-color: #5C5C5C;
+		border-color: #5C5C5C;
+		color: #D2D2D2 !important;
+	}
+
+	.user-expression .avatar .inner-caret {
+		border-color: #5C5C5C;
+		border-top: 7px solid transparent;
+		border-bottom: 7px solid transparent;
+		border-right: 7px solid #5C5C5C;
+	}
+
+	.comment > .user-expression .content .quote {
+		background-color: #6B6B6B;
+		border-color: #6B6B6B;
+	}
+
+	div.comment {
+		border-bottom: 1px solid #5C5C5C;
+	}
+
+	section h1,
+	section h2,
+	ul.menu > li > a {
+		color: #D2D2D2 !important;
+	}
+
+	a {
+		color: #999 !important;
+	}
+
+	a:hover,
+	.actions > a:hover,
+	.actions > a > span:hover {
+		color: #50BCB6 !important;
+	}
+
+	h1 > .actions,
+	.actions > a,
+	h2 .count,
+	.subtab .selected,
+	.subtab li a:hover,
+	.input,
+	.tbx-click,
+	.criterion-preview {
+		background-color: #5C5C5C !important;
+		border-color: #5C5C5C !important;
+		color: #D2D2D2 !important;
+	}
+
+	.input *,
+	.form-input {
+		color: #D2D2D2 !important;
+	}
+
+	.tiny-progress-bar {
+		background-color: #50BCB6;
+	}
+
+	#window {
+		background: rgba(0,0,0, 0.7);
+	}
+
+	#search {
+		background: rgba(0,0,0, 0.6);
+	}
+
+	.item-object .item-collect-actions {
+		border-bottom: none;
+	}
+
+	.object-stats {
+		border-top: none;
+	}
+
+	#navigator a.handle,
+	a.item-category,
+	.item-picture-categories > a {
+		color: white !important;
+	}
+
+	ul.menu,
+	ul.menu > li {
+		background-color: #5C5C5C !important;
+		border: none !important;
+	}
+
+	#menu li .menu li a:hover,
+	.user-menu .menu li a:hover, .lang-menu .menu li a:hover {
+		background: #6B6B6B;
+	}
+}
