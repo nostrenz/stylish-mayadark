@@ -82,6 +82,11 @@
 		border-right: 7px solid #5C5C5C !important;
 	}
 
+	.user-expression .avatar .outer-caret,
+	.caret > .outer {
+		border-right: 8px solid #5C5C5C !important;
+	}
+
 	.comment > .user-expression .content .quote,
 	.tbx-menu > .menu,
 	.tbx-menu > .menu > li,
