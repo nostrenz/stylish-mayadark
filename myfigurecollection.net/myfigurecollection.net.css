@@ -1,6 +1,6 @@
 @-moz-document domain('myfigurecollection.net') {
 	body {
-		background-color: #262626;
+		background-color: #262626 !important;
 	}
 
 	section > h1,
@@ -23,7 +23,8 @@
 	.window-content,
 	.entry-description,
 	.entry-items,
-	.entry-object {
+	.entry-object,
+	.picture-score {
 		background-color: #333333 !important;
 		border-color: #333333;
 	}
@@ -40,21 +41,34 @@
 
 	div.share,
 	.comment > .user-expression .content,
-	.activity-wrapper {
-		background-color: #5C5C5C;
+	.activity-wrapper,
+	.user-expression .expression .content,
+	.tbx-bbcode,
+	.text.form-field .form-input,
+	.bbcode-buttons,
+	.form .form-field.small-text .form-input,
+	.form .form-field.text .form-input,
+	.form .form-field.long-text .form-input,
+	.tbx-bbcode-pictures,
+	.reply-content {
+		background-color: #5C5C5C !important;
 		border-color: #5C5C5C;
 		color: #D2D2D2 !important;
 	}
 
-	.user-expression .avatar .inner-caret {
+	.user-expression .avatar .inner-caret,
+	.caret > .inner {
 		border-color: #5C5C5C;
 		border-top: 7px solid transparent;
 		border-bottom: 7px solid transparent;
-		border-right: 7px solid #5C5C5C;
+		border-right: 7px solid #5C5C5C !important;
 	}
 
-	.comment > .user-expression .content .quote {
-		background-color: #6B6B6B;
+	.comment > .user-expression .content .quote,
+	.tbx-menu > .menu,
+	.tbx-menu > .menu > li,
+	.reply-content .quote {
+		background-color: #6B6B6B !important;
 		border-color: #6B6B6B;
 	}
 
@@ -118,8 +132,13 @@
 
 	#navigator a.handle,
 	a.item-category,
-	.item-picture-categories > a {
+	.item-picture-categories > a,
+	a.category {
 		color: white !important;
+	}
+
+	a.category.picture-album {
+		color: black !important;
 	}
 
 	ul.menu,
