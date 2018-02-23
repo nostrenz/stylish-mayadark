@@ -24,7 +24,9 @@
 	.entry-description,
 	.entry-items,
 	.entry-object,
-	.picture-score {
+	.picture-score,
+	.nothing,
+	.user-object {
 		background-color: #333333 !important;
 		border-color: #333333;
 	}
@@ -44,15 +46,31 @@
 	.activity-wrapper,
 	.user-expression .expression .content,
 	.tbx-bbcode,
-	.text.form-field .form-input,
 	.bbcode-buttons,
 	.form .form-field.small-text .form-input,
 	.form .form-field.text .form-input,
 	.form .form-field.long-text .form-input,
 	.tbx-bbcode-pictures,
-	.reply-content {
+	.reply-content,
+	.select.form-field > .form-input,
+	.bigchar.form-field > .form-input,
+	.varchar.form-field > .form-input,
+	.date.form-field > .form-input,
+	.date-chooser > .date,
+	.form-input .option,
+	.object-picker,
+	.tbx-color,
+	.tbx-color-palet > div > div,
+	.form-input > select > option,
+	.form-input > label[for=fl-avatar] {
 		background-color: #5C5C5C !important;
-		border-color: #5C5C5C;
+		border-color: #5C5C5C !important;
+		color: #D2D2D2 !important;
+	}
+
+	.form-input input,
+	.form-input select,
+	.form-input textarea {
 		color: #D2D2D2 !important;
 	}
 
@@ -90,6 +108,11 @@
 	.actions > a:hover,
 	.actions > a > span:hover {
 		color: #50BCB6 !important;
+	}
+
+	.form-input > input[type=submit]:hover {
+		color: white !important;
+		background-color: #50BCB6 !important;
 	}
 
 	h1 > .actions,
