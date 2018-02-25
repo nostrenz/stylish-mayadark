@@ -191,7 +191,7 @@
 	input[type="submit"]:hover,
 	button:hover,
 	.form-input > input[type=submit]:hover,
-	#menu li .menu li a:hover {
+	.menu li a:hover {
 		color: white !important;
 		background-color: #50BCB6 !important;
 	}
