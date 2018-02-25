@@ -27,7 +27,8 @@
 	.picture-score,
 	.nothing,
 	.user-object,
-	.item-information {
+	.item-information,
+	.classified-content {
 		background-color: #333333 !important;
 		border-color: #333333 !important;
 	}
@@ -73,7 +74,8 @@
 	.tbx-color-palet > div > div,
 	select > option,
 	.form-input > label[for=fl-avatar],
-	.listing-item-meta.collection-meta {
+	.listing-item-meta.collection-meta,
+	.classified-contact-button {
 		background-color: #5C5C5C !important;
 		border-color: #5C5C5C !important;
 		color: #D2D2D2 !important;
@@ -151,7 +153,9 @@
 		border-bottom: none !important;
 	}
 
-	.object-stats {
+	.object-stats,
+	.object-meta,
+	.object-mono-relation {
 		border-top: none !important;
 	}
 
