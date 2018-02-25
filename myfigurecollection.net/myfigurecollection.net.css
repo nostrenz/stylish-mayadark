@@ -26,12 +26,22 @@
 	.entry-object,
 	.picture-score,
 	.nothing,
-	.user-object {
+	.user-object,
+	.item-information {
 		background-color: #333333 !important;
 		border-color: #333333 !important;
 	}
 
-	.entry-description {
+	.entry-description,
+	.item-information,
+	.input *,
+	.form-input,
+	section h1,
+	section h2,
+	ul.menu > li > a,
+	.form-input input,
+	.form-input select,
+	.form-input textarea {
 		color: #D2D2D2 !important;
 	}
 
@@ -69,12 +79,6 @@
 		color: #D2D2D2 !important;
 	}
 
-	.form-input input,
-	.form-input select,
-	.form-input textarea {
-		color: #D2D2D2 !important;
-	}
-
 	.user-expression .avatar .inner-caret,
 	.caret > .inner {
 		border-color: #5C5C5C;
@@ -108,12 +112,6 @@
 		border-bottom: 1px solid #5C5C5C !important;
 	}
 
-	section h1,
-	section h2,
-	ul.menu > li > a {
-		color: #D2D2D2 !important;
-	}
-
 	a {
 		color: #999 !important;
 	}
@@ -137,11 +135,6 @@
 		color: #D2D2D2 !important;
 	}
 
-	.input *,
-	.form-input {
-		color: #D2D2D2 !important;
-	}
-
 	.tiny-progress-bar {
 		background-color: #50BCB6;
 	}
@@ -155,11 +148,11 @@
 	}
 
 	.item-object .item-collect-actions {
-		border-bottom: none;
+		border-bottom: none !important;
 	}
 
 	.object-stats {
-		border-top: none;
+		border-top: none !important;
 	}
 
 	#navigator a.handle,
