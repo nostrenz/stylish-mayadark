@@ -28,7 +28,8 @@
 	.nothing,
 	.user-object,
 	.item-information,
-	.classified-content {
+	.classified-content,
+	.picture-awards {
 		background-color: #333333 !important;
 		border-color: #333333 !important;
 	}
@@ -42,7 +43,8 @@
 	ul.menu > li > a,
 	.form-input input,
 	.form-input select,
-	.form-input textarea {
+	.form-input textarea,
+	.picture-awards {
 		color: #D2D2D2 !important;
 	}
 
