@@ -30,7 +30,8 @@
 	.item-information,
 	.classified-content,
 	.picture-awards,
-	section > .users {
+	section > .users,
+	.object-content {
 		background-color: #333333 !important;
 		border-color: #333333 !important;
 	}
@@ -45,7 +46,8 @@
 	.form-input input,
 	.form-input select,
 	.form-input textarea,
-	.picture-awards {
+	.picture-awards,
+	.object-content {
 		color: #D2D2D2 !important;
 	}
 
@@ -104,7 +106,7 @@
 	.collection-meta-caret > .outer {
 		border-bottom: 8px solid #5C5C5C !important;
 	}
-	
+
 	.comment > .user-expression .content .quote,
 	.tbx-menu > .menu,
 	.tbx-menu > .menu > li,
