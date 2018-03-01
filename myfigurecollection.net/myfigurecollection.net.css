@@ -29,7 +29,8 @@
 	.user-object,
 	.item-information,
 	.classified-content,
-	.picture-awards {
+	.picture-awards,
+	section > .users {
 		background-color: #333333 !important;
 		border-color: #333333 !important;
 	}
