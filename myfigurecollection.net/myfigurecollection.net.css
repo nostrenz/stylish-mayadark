@@ -199,4 +199,18 @@
 		color: white !important;
 		background-color: #50BCB6 !important;
 	}
+
+	.spotlighted {
+		background: linear-gradient(transparent, #50BCB6) !important;
+	}
+
+	.spotlighted .expression > .meta {
+		background: rgba(0,0,0, 0.6);
+		padding: 0 0.5em;
+		border-radius: 4px;
+	}
+
+	.spotlighted .comment-score-value {
+		color: white !important;
+	}
 }
