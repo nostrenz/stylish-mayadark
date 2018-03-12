@@ -30,6 +30,7 @@
 	.item-information,
 	.classified-content,
 	.picture-awards,
+	section > .users,
 	.object-content {
 		background-color: #333333 !important;
 		border-color: #333333 !important;
